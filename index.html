@@ -26,19 +26,26 @@
             <p>Yuk, lanjutin belajarmu di videobelajar.</p>
 
             <form action="#" method="post">
+              <!-- EMAIL -->
                <label for="email">E-mail <span class="required">*</span></label>
                <input type="email" name="email" id="email" required>
 
+               <!-- PASSWORD -->
                <label for="password">Kata Sandi <span class="required">*</span></label>
                <input type="password" name="password" id="password" required>
 
-               <a href="#" class="forgot-password">Lupa Password?</a>
-
+               <!-- ACTION -->
+              <div class="form-action">
+               <a href="#" class="forgot-password">Lupa Password?</a><br> 
                <button type="submit" class="btn btn-primary">Masuk</button>
-               <a href="#" class="btn btn-secondary">Daftar</a> 
+               <a href="#" class="btn btn-secondary">Daftar</a>
+              </div>  
             </form>
 
+            <!-- DIVIDER -->
             <span class="divider">Atau</span>
+
+            <!-- GOOGLE LOGIN -->
             <a href="#" class="btn"><img src="./MEDIA/icon/logos_google-icon.png" alt="Google Icon">Masuk dengan Google</a>
         </div>
     </div>
