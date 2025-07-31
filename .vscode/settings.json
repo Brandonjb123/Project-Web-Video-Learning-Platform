@@ -1,3 +1,11 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "Project-Web-Video-Learning-Platform"
+    "liveServer.settings.multiRootWorkspaceName": "Project-Web-Video-Learning-Platform",
+    "workbench.colorTheme": "Monokai Dimmed",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.fontSize": 16
+
 }
