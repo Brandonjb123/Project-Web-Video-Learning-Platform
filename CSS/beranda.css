@@ -389,10 +389,10 @@ footer {
   }
 
   .card {
-    width: 360px;
+    width: 400px;
     height: 1683px;
+    gap: 24px;
     margin: auto;
-    border: 2px solid black;
   }
 
   .title-card {
@@ -408,19 +408,129 @@ footer {
     height: 50px;
   }
 
-  .card-section-two,
+  .card-section-one {
+    width: 100%;
+    height: 467px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card-section-two {
+    width: 100%;
+    height: 467px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
   .card-section-three {
-    display: none;
+    width: 100%;
+    height: 467px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
   .card-component {
     width: 100%;
-    height: 147px;
+    height: 150px;
+    padding: 10px;
+    background-color: #FFFFFF;
   }
 
+  .card-component-detail {
+    width: 100%;
+  }
+
+  .component-bio-full {
+    width: 288px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-around;
+  }
+
+  .component-full {
+    width: 194px;
+    height: 37px;
+  }
+    
   .card-component-image img {
     width: 82px;
     height: 82px;
+  }
+
+  .card-component-description {
+    width: 194px;
+    height: 38px;
+    font-size: 16px;
+  }
+
+  .card-component-description p {
+    display: none;
+  }
+
+  .card-component-profile {
+    width: 194px;
+    height: 37px;
+    padding-top: 10px;
+  }
+
+  .card-component p {
+    font-size: 12px;
+  }
+
+  .card-component-price {
+    width: 288px;
+    height: 24px;
+    font-size: 20px;
+  }
+  .hero-banner-cta {
+    width: 100%;
+    height: 400px;
+  }
+
+  .hero-banner-cta img {
+    width: 100%;
+    height: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  .box-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-info-address {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-category {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-category-skill p {
+    display: none;
+  }
+
+  .box-category-condition-term p {
+    display: none;
+  }
+
+  .box-category-comunity p {
+    display: none;
+  }
+
+  .footer-info,
+  .info-social-media {
+    flex-direction: column;
   }
 
 }
